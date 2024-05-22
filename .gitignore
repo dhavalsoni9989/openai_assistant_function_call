@@ -1,0 +1,14 @@
+.DS_Store
+node_modules/
+coverage/
+npm-debug.log
+stats.json
+yarn-error.log
+data/
+acme.json
+.env
+.secret
+deployDev.sh
+currency.db
+build
+.eslintcache

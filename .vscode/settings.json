@@ -1,0 +1,14 @@
+{
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/node_modules/": true,
+      "**/coverage/": true,
+      "**/npm-debug.log": true,
+      "**/build": true,
+      "**/data": true,
+      "**/.env": false
+    },
+    "eslint.validate": ["javascript"],
+    "editor.formatOnSave": true,
+    "typescript.tsdk": "node_modules\\typescript\\lib"
+  }

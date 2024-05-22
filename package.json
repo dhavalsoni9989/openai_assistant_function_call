@@ -1,0 +1,29 @@
+{
+  "name": "openai_assistant_function_call",
+  "version": "1.0.0",
+  "description": "OpenAI Assistant API with 3rd Party API call",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node -r dotenv/config server.mjs",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openai",
+    "nodejs",
+    "assistant",
+    "function_call",
+    "express"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.8",
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "http-status": "^1.7.4",
+    "https": "^1.0.0",
+    "openai": "^4.45.0"
+  }
+}
